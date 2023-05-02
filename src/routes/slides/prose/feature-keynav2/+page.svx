@@ -1,0 +1,50 @@
+# with configuration
+
+```js
+navKeys: {
+  parent: 'ArrowUp',    // closest parent
+  child:  'ArrowDown',  // closest descendant
+  next:   'ArrowRight', // next sibling
+  prev:   'ArrowLeft'   // previous sibling
+},
+openKey: 'Enter'
+```
+
+
+### to customize it to your needs
+
+<style>
+  h3 { text-align: right; }
+
+
+  div {
+      position: relative;
+      background: rgba(127,127,127,0.3);
+  }
+  .grid > div {
+      padding: 1rem;
+      margin: 1rem;
+      border-radius: 0.5rem;
+  }
+  .grid {
+    padding: 1rem;
+    margin: 1rem;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+  }
+  .level-1 {
+    margin: 2rem auto;
+    width: 32rem;
+    height: 32rem;
+    border-radius: 0.5rem;
+  }
+
+  .filler {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+  }
+</style>

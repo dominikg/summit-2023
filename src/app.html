@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+	</head>
+	<body>
+	<script type="application/javascript">
+		(function () {
+			if (document && window && window.localStorage) {
+				const t = window.localStorage.getItem('theme');
+				if (t) {
+					document.body.classList.add(`${t}`);
+				}
+			}
+		})();
+	</script>
+	<div style="display: contents">
+		%sveltekit.body%
+	</div>
+	</body>
+</html>

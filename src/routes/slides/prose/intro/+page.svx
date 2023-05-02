@@ -1,0 +1,19 @@
+<script>
+    import Evolution from "$components/Evolution.svelte";
+</script>
+
+<br>
+<br>
+<br>
+
+## Svelte Inspector Update
+
+<br>
+<Evolution highlight={4}/>
+<br>
+
+### Features, Fixes and more
+
+<style>
+  h2,h3 {text-align: center;}
+</style>

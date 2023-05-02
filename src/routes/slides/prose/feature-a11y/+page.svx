@@ -1,0 +1,21 @@
+# Improved accessibility
+
+##  <input type="checkbox" checked> no pointer device needed
+## <input type="checkbox" checked> screen reader announcements
+
+```html
+<div id="svelte-inspector-announcer"
+     aria-live="assertive"
+     aria-atomic="true">
+  div in file src/routes/+layout.svelte on line 10 column 0
+</div>
+```
+<style>
+input[type=checkbox] {
+  transform: scale(1.5);
+  vertical-align: middle;
+}
+.code-highlight {
+  max-width: 95%;
+}
+</style>

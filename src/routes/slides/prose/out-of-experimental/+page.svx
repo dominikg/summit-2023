@@ -1,0 +1,66 @@
+<script>
+	import { confetti } from '@neoconfetti/svelte'
+	import { fade } from 'svelte/transition'
+	import { tick } from 'svelte'
+
+	let isVisible = false;
+	const showConfetti = async () => {
+    	isVisible = false;
+    	await tick();
+    	isVisible = true;
+    }
+</script>
+
+{#if isVisible}
+<div>
+	<div use:confetti />
+</div>
+{/if}
+
+{#if !isVisible}
+<button class="one-more" on:click={showConfetti}>...one more thing</button>
+{:else}
+<br>
+<br>
+<br>
+<div class="thing" in:fade={{duration:1000}}>
+
+### After all these changes
+
+```diff
+// svelte.config.js
+// vite-plugin-svelte >=2.2.0
+export default {
+  vitePlugin:{
+-   experimental:{
+-      inspector: {...}
+-   },
++   inspector: {...}
+  }
+}
+```
+
+### Svelte Inspector is no longer experimental!
+</div>
+{/if}
+
+<style>
+	.one-more {
+	  all: unset;
+	  width: 100%;
+	  text-align: center;
+	}
+	.thing {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	}
+	:global(body) {
+		overflow: hidden;
+	}
+
+	div {
+		display: flex;
+		justify-content: center;
+	}
+</style>

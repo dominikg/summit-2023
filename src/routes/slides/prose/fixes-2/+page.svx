@@ -1,0 +1,25 @@
+# more bug fixes
+
+## automatically disable when leaving browser
+```js
+function onLeave() {
+  if (hasOpened) {
+    disable();
+  }
+}
+```
+#### so you can interact with the page on return
+
+## use control-shift on linux by default
+```diff
+// linux default
+-  toggleKeyCombo: 'meta-shift',
++  toggleKeyCombo: 'control-shift',
+```
+#### because meta-shift doesn't work in firefox
+
+<style>
+h4 {
+  text-align: right;
+}
+</style>

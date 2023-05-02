@@ -1,0 +1,24 @@
+# Thank you
+
+<br>
+
+## Bjorn Lu
+
+## Delight
+
+## Lukasz Polowczyk
+
+## probablykasper
+
+## Puru
+
+<br>
+
+<h2 style="text-align: right"> and everyone else &#9829;</h2>
+
+<style>
+h2 { margin-left: 30%; }
+
+</style>
+
+

@@ -1,0 +1,24 @@
+## With new environment options
+
+<br>
+
+### it's time to get personal
+```sh
+# quick setting for key-combo only
+SVELTE_INSPECTOR_TOGGLE=control-shift
+
+# all options as json
+SVELTE_INSPECTOR_OPTIONS='{"holdMode": false}'
+
+# force disable
+SVELTE_INSPECTOR_OPTIONS=false
+```
+<h3 style="text-align: right;">and have it your way, always.</h3>
+
+
+<br>
+<br>
+<br>
+
+##### (in global environment or local .env files)
+

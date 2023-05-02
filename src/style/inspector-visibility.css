@@ -1,0 +1,12 @@
+#svelte-inspector-toggle {
+    transform: scale(1.2) translate(-10px, 10px) !important;
+}
+
+#svelte-inspector-overlay {
+    transform: scale(1.2) translateX(-10%);
+}
+
+/* prevent hold-mode making selections */
+body * {
+    user-select: none;
+}

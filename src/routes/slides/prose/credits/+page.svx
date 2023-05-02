@@ -1,0 +1,19 @@
+# Credits and Attribution
+
+My eternal gratitude to everyone who has a part in making these.<br>
+Without you this talk would not have been possible!
+
+### Tools to build this talk
+
+- [SvelteKit](https://kit.svelte.dev)
+- [Vite](https://vitejs.dev)
+- [mdvsvex](https://mdsvex.com)
+- [Shiki](https://shiki.matsu.io/)
+- [@neoconfetti/svelte](https://github.com/puruvj/neoconfetti)
+
+
+### Art
+
+- evolution.svg <a href="https://commons.wikimedia.org/wiki/File:Human_evolution.svg">Tkgd2007</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+
+

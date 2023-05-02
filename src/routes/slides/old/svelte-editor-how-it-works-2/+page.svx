@@ -1,0 +1,13 @@
+# How inline-editor works
+
+<br>
+
+## ~~1) injects itself~~
+
+## ~~2) loads unobstrusive ui~~
+
+## ~~3) maps dom to source~~
+
+## 4) opens editor
+
+## 5) updates content

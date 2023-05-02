@@ -1,0 +1,28 @@
+#### Inspector who?
+
+```js
+// svelte.config.js
+const config = {
+	vitePlugin: {
+		experimental: {
+			inspector: true
+		}
+	}
+};
+export default config;
+```
+
+### Svelte Inspector!
+
+<br>
+
+![inspector](./inspector.svg)
+
+<br>
+
+#### helps you to open the right file more quickly
+
+<style>
+  img {transform:translateX(-50%);margin-left: 50%; height: 10rem;}
+  h3 {text-align: right;}
+</style>

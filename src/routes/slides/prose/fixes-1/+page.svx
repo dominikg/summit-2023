@@ -1,0 +1,26 @@
+# bug fixes
+
+## mount inspector outside body
+```diff
+  <body id="app">
+-   <div id="svelte-inspector-host">...</div>
+  </body>
++ <div id="svelte-inspector-host">...</div>
+</html>
+```
+#### to avoid removal on hydration
+
+## respect vite base
+```js
+// vite.config.js
+export default {
+  base: '/far-snape/'
+}
+```
+#### and open files correctly
+
+<style>
+h4 {
+  text-align: right;
+}
+</style>
