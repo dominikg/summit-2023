@@ -1,24 +1,5 @@
-# Keyboard navigation
-
-<div class="level-1 grid">
-    <div class="filled">
-        <div class="filler"></div>
-    </div>
-    <div></div>
-    <div class="grid">
-        <div class="grid"></div>
-        <div class="grid"></div>
-    </div>
-</div>
-
-
-### select elements with arrow keys
-### open editor with Enter
-
 <style>
   h3 { text-align: right; }
-
-
   div {
       position: relative;
       background: rgba(127,127,127,0.3);
@@ -41,7 +22,6 @@
     height: 32rem;
     border-radius: 0.5rem;
   }
-
   .filler {
     position: absolute;
     width: 0;
@@ -50,3 +30,21 @@
     left: 50%;
   }
 </style>
+
+# Keyboard navigation
+
+<div class="level-1 grid">
+    <div class="filled">
+        <div class="filler"></div>
+    </div>
+    <div></div>
+    <div class="grid">
+        <div class="grid"></div>
+        <div class="grid"></div>
+    </div>
+</div>
+
+### select elements with arrow keys
+### open editor with Enter
+
+

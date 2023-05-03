@@ -23,6 +23,6 @@ export default config;
 #### helps you to open the right file more quickly
 
 <style>
-  img {transform:translateX(-50%);margin-left: 50%; height: 10rem;}
+  img {transform:translateX(-50%);margin-left: 50%; height: 5rem;}
   h3 {text-align: right;}
 </style>
